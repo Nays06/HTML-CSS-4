@@ -43,9 +43,12 @@ nav{
     color: white;
 }
 
+.cho{
+    position: absolute;
+}
+
 .sered{
     display: flex;
-    justify-content: space-between;
 }
 
 aside{
@@ -69,11 +72,13 @@ main{
     margin-right: 2px;
     margin-left: 25px;
     margin-top: 15px;
+    
 }
 
 .tipslide{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: rgb(240, 255, 33);
 }
 
@@ -160,7 +165,6 @@ footer{
 
     .tipslide{
         justify-content: center;
-        margin-left: 200px;
     }
 
     .tipslide img{
@@ -198,3 +202,8 @@ footer{
         height: 150px;
     }
     }
+
+
+@media (max-width:620px){
+
+}
